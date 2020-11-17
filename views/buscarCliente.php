@@ -48,7 +48,7 @@ if (isset($_SESSION["user"])) {
                 <div class="col l2 m4 s12"></div>
                 <div class="col l8 m4 s12">
                     <div class="card">
-                        <div class="card-content">
+                        <div class="card-action">
                             <br><br>
                             <form action="#" method="POST">
                                 <input class="col l3" type="text" name="rutbus" placeholder="Rut">
