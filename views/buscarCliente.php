@@ -37,7 +37,7 @@ if (isset($_SESSION["user"])) {
                           <ul id="nav-mobile" class="left hide-on-med-and-down">
                               <li><a href="clientes.php"><span title="Crear Cliente"><i class="fas fa-user-plus"></i></i></span></a></li>
                               <li class="activo"><a href="buscarCliente.php"><span title="Buscar Receta"><i class="fas fa-search"></i></span></li></a>
-                              <li><a href="crearReceta.php"><span title="Crear Receta"><i class="fas fa-glasses"></i></i></span></a></li>
+                              <li><a href="CrearReceta.php"><span title="Crear Receta"><i class="fas fa-glasses"></i></i></span></a></li>
                           </ul>
                           <ul id="nav-mobile" class="right hide-on-med-and-down">
 
