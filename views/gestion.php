@@ -25,7 +25,8 @@ if (isset($_SESSION["user"])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Gestión de Usuarios</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Gestión de Usuarios - Optica Oculus</title>
 </head>
 
 <body>
@@ -87,8 +88,9 @@ if (isset($_SESSION["user"])) {
                                         <label for="nombre">Nombre Vendedor</label>
                                     </div>
                                     <input type="hidden" name="rol" value="vendedor">
-                                    <input type="hidden" name="clave" value="123">
                                     <input type="hidden" name="estado" value="1">
+                                    <input type="hidden" name="clave" value="vendedor">
+
                                     <p class="verdeclaro center">
                                     <?php if (isset($_SESSION["respuesta"])) {
                                       echo $_SESSION["respuesta"];
