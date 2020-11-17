@@ -65,7 +65,7 @@ if (isset($_SESSION["user"])) {
                                     <button class="waves-effect waves-light btn teal lighten-2 col l6"><i class="material-icons right">check_box</i>Editar Usuario</button>
                                 </form>
                                 <form action="../views/gestion.php">
-                                <button class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">backspace</i>Cancelar</button>
+                                <button class="waves-effect waves-light btn teal lighten-2 col l6"><i class="material-icons right">backspace</i>Cancelar</button>
                                 </form> 
                             </div>
                         </div>
