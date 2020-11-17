@@ -51,18 +51,6 @@ if (isset($_SESSION["user"])) {
                     <div class="card">
                         <div class="card-action">
                             <form action="../controllers/ClienteController.php" method="POST">
-                                <p class="verdeclaro">
-                                    <?php if (isset($_SESSION["respuestaCli"])) {
-                                      echo $_SESSION["respuestaCli"];
-                                      unset($_SESSION["respuestaCli"]);
-                                    } ?>
-                                </p>
-                                <p class="rojoclaro">
-                                    <?php if (isset($_SESSION["errorCli"])) {
-                                      echo $_SESSION["errorCli"];
-                                      unset($_SESSION["errorCli"]);
-                                    } ?>
-                                </p>
                                 <div class="input-field col l4">
                                 <i class="material-icons md-leal prefix">assignment_ind</i>
                                     <input id="clirut" type="text" name="clirut">
@@ -92,19 +80,25 @@ if (isset($_SESSION["user"])) {
                                     <i class="material-icons md-leal prefix">email</i>
                                     <input id="cliemail" type="email" name="cliemail">
                                     <label for="cliemail">Correo Eléctronico</label>
+                                    <p class="verdeclaro center">
+                                        <?php if (isset($_SESSION["respuestaCli"])) {
+                                          echo $_SESSION["respuestaCli"];
+                                          unset($_SESSION["respuestaCli"]);
+                                        } ?>
+                                    </p>
+                                        <p class="rojoclaro center">
+                                            <?php if (isset($_SESSION["errorCli"])) {
+                                              echo $_SESSION["errorCli"];
+                                              unset($_SESSION["errorCli"]);
+                                            } ?>
+                                        </p>
+                                        <p class="rojoclaro center">
+                                            <?php if (isset($_SESSION["respuesta"])) {
+                                              echo $_SESSION["respuesta"];
+                                              unset($_SESSION["respuesta"]);
+                                            } ?>
+                                        </p>
                                 </div>
-                                <p class="verdeclaro center">
-                                    <?php if (isset($_SESSION["respuestaCli"])) {
-                                      echo $_SESSION["respuestaCli"];
-                                      unset($_SESSION["respuestaCli"]);
-                                    } ?>
-                                </p>
-                                <p class="rojoclaro center">
-                                    <?php if (isset($_SESSION["errorCli"])) {
-                                      echo $_SESSION["errorCli"];
-                                      unset($_SESSION["errorCli"]);
-                                    } ?>
-                                </p>
                                 <button class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">arrow_forward</i>Crear Cliente</button>
                             </form>
                             <p class="rojoclaro">
