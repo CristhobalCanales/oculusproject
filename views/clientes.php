@@ -24,7 +24,7 @@ if (isset($_SESSION["user"])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <title>Gestión Clientes - Optica Oculus</title>
 </head>
 
@@ -37,7 +37,7 @@ if (isset($_SESSION["user"])) {
                         <ul id="nav-mobile" class="left hide-on-med-and-down">
                             <li class="activo"><a href="clientes.php"><span title="Crear Cliente"><i class="fas fa-user-plus"></i></i></span></a></li>
                             <li><a href="buscarCliente.php"><span title="Buscar Receta"><i class="fas fa-search"></i></span></li></a>
-                            <li><a href="CrearReceta.php"><span title="Crear Receta"><i class="fas fa-glasses"></i></i></span></a></li>
+                            <li><a href="crearReceta.php"><span title="Crear Receta"><i class="fas fa-glasses"></i></i></span></a></li>
                         </ul>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
 
