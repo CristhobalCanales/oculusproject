@@ -9,7 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap' rel='stylesheet' />
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Optica</title>
+    <title>Iniciar Sesión Administrador - Optica Oculus</title>
 </head>
 
 <body>
