@@ -73,19 +73,6 @@ if (isset($_SESSION["user"])) {
         </div>
 
     <?php } else {header("Location: ../index.php"); ?>
-        <!--<div class="container">
-            <div class="card">
-                <h3 class="red-text">Error de Acceso</h3>
-                <p class="teal-text text-lighten-2">
-                    Usted no tiene permisos para estar aqui
-                    <br><br>
-                    <button class="btn">
-                        <a class="white-text" href="../index.php">Inicia Sesión</a>
-                    </button>
-                </p>
-            </div>
-
-        </div>-->
 
     <?php } ?>
 
