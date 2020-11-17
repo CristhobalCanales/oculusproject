@@ -61,9 +61,11 @@ if (isset($_SESSION["user"])) {
                                         </select>
                                         <label>Estado</label>
                                     </div>
-                                    <button class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">check_box</i>Editar Usuario</button>
-                                    <a href="gestion.php"><button class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">backspace</i>Cancelar</button></a>
+                                    <button class="waves-effect waves-light btn teal lighten-2 col l6"><i class="material-icons right">check_box</i>Editar Usuario</button>
                                 </form>
+                                <form action="../views/gestion.php">
+                                <button class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">backspace</i>Cancelar</button>
+                                </form> 
                             </div>
                         </div>
                     <?php
@@ -128,9 +130,13 @@ if (isset($_SESSION["user"])) {
                                             <?php } ?>
                                             <td>
                                                 <span title="Editar Vendedor">
-                                                  <button name="bt_edit" value="<?= $item["rut"] ?>" class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">mode_edit</i>Editar</button>
+                                                  <button name="bt_edit" value="<?= $item[
+                                                    "rut"
+                                                  ] ?>" class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">mode_edit</i>Editar</button>
                                                 <span title="Eliminar Vendedor">
-                                                  <button name="bt_delete" value="<?= $item["rut"] ?>" class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">delete</i>Eliminar</button></span>
+                                                  <button name="bt_delete" value="<?= $item[
+                                                    "rut"
+                                                  ] ?>" class="waves-effect waves-light btn teal lighten-2"><i class="material-icons right">delete</i>Eliminar</button></span>
                                                 </span>
 
                                             </td>
